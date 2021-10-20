@@ -19,6 +19,7 @@ public class StudentSearch {
       return student;
    throw new Exception("There is no student with the given name!");
 }
+//Here are my comments
 public ArrayList<Student> findAll(ArrayList<Student> students, String name) throws
 Exception {
 ArrayList<Student> result = new ArrayList<Student>();
